@@ -55,6 +55,12 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
+# CORS_ALLOWED_ORIGINS = [
+#     "https://your-frontend.netlify.app"
+# ]
+
+CORS_ALLOW_CREDENTIALS = True
+
 ROOT_URLCONF = 'testapp.urls'
 
 TEMPLATES = [
